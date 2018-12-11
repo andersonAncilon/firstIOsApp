@@ -16,7 +16,7 @@ class EditViewController: UIViewController {
     
     
     
-    var devedor = Devedor(vrName: "aaa", vrDesc: "bbb", vrValue: "ccc")
+    var devedor = Devedor(vrName: "", vrDesc: "", vrValue: "ccc")
     var ref:DatabaseReference = Database.database().reference()
     var index:IndexPath?
     
