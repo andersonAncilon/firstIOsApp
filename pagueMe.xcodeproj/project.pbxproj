@@ -23,6 +23,7 @@
 		71BCF3D921BEC882008A7826 /* Devedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BCF3D821BEC882008A7826 /* Devedor.swift */; };
 		71BCF3DB21C000C8008A7826 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BCF3DA21C000C8008A7826 /* EditViewController.swift */; };
 		71BD977021C2C08F00AD3DDB /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BD976F21C2C08F00AD3DDB /* Profile.swift */; };
+		71E8FC9821C2F0B000771EDA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71E8FC9721C2F0B000771EDA /* GoogleService-Info.plist */; };
 		EB81DE7A69466E52B1DAF2E0 /* Pods_pagueMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C93DE0631E7542F3CA8CE1 /* Pods_pagueMeTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +70,7 @@
 		71BCF3D821BEC882008A7826 /* Devedor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devedor.swift; sourceTree = "<group>"; };
 		71BCF3DA21C000C8008A7826 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		71BD976F21C2C08F00AD3DDB /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		71E8FC9721C2F0B000771EDA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		90B8A33B2CDA08231976D6FA /* Pods-pagueMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pagueMeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pagueMeTests/Pods-pagueMeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC8FFCA364F1324CEF4B6902 /* Pods-pagueMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pagueMeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pagueMeUITests/Pods-pagueMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E3320CD6340F18E119DDC862 /* Pods-pagueMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pagueMeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pagueMeTests/Pods-pagueMeTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				71BCF3D821BEC882008A7826 /* Devedor.swift */,
 				71BCF3CE21BE88BD008A7826 /* TableView.swift */,
 				71BCF3D021BE88DF008A7826 /* Cell.swift */,
+				71E8FC9721C2F0B000771EDA /* GoogleService-Info.plist */,
 				71BCF3D621BEA028008A7826 /* AddViewController.swift */,
 			);
 			path = pagueMe;
@@ -298,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71BCF3A921BE8803008A7826 /* LaunchScreen.storyboard in Resources */,
+				71E8FC9821C2F0B000771EDA /* GoogleService-Info.plist in Resources */,
 				71BCF3A621BE8803008A7826 /* Assets.xcassets in Resources */,
 				71BCF3A421BE8803008A7826 /* Main.storyboard in Resources */,
 			);
