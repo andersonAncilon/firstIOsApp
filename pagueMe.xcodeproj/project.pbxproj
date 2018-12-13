@@ -19,7 +19,6 @@
 		71BCF3CD21BE88A0008A7826 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BCF3CC21BE88A0008A7826 /* Login.swift */; };
 		71BCF3CF21BE88BD008A7826 /* TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BCF3CE21BE88BD008A7826 /* TableView.swift */; };
 		71BCF3D121BE88DF008A7826 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BCF3D021BE88DF008A7826 /* Cell.swift */; };
-		71BCF3D521BE9677008A7826 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71BCF3D421BE9677008A7826 /* GoogleService-Info.plist */; };
 		71BCF3D721BEA028008A7826 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BCF3D621BEA028008A7826 /* AddViewController.swift */; };
 		71BCF3D921BEC882008A7826 /* Devedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BCF3D821BEC882008A7826 /* Devedor.swift */; };
 		71BCF3DB21C000C8008A7826 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BCF3DA21C000C8008A7826 /* EditViewController.swift */; };
@@ -66,7 +65,6 @@
 		71BCF3CC21BE88A0008A7826 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		71BCF3CE21BE88BD008A7826 /* TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableView.swift; sourceTree = "<group>"; };
 		71BCF3D021BE88DF008A7826 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
-		71BCF3D421BE9677008A7826 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		71BCF3D621BEA028008A7826 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		71BCF3D821BEC882008A7826 /* Devedor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devedor.swift; sourceTree = "<group>"; };
 		71BCF3DA21C000C8008A7826 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
@@ -153,7 +151,6 @@
 				71BCF3CE21BE88BD008A7826 /* TableView.swift */,
 				71BCF3D021BE88DF008A7826 /* Cell.swift */,
 				71BCF3D621BEA028008A7826 /* AddViewController.swift */,
-				71BCF3D421BE9677008A7826 /* GoogleService-Info.plist */,
 			);
 			path = pagueMe;
 			sourceTree = "<group>";
@@ -303,7 +300,6 @@
 				71BCF3A921BE8803008A7826 /* LaunchScreen.storyboard in Resources */,
 				71BCF3A621BE8803008A7826 /* Assets.xcassets in Resources */,
 				71BCF3A421BE8803008A7826 /* Main.storyboard in Resources */,
-				71BCF3D521BE9677008A7826 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
