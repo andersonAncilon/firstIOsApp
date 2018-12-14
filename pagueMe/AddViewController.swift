@@ -20,18 +20,26 @@ class AddViewController: UIViewController {
     
     @IBAction func add(_ sender: Any) {
         ref = Database.database().reference()
+     
         
-        if(name.text != "") {
-            ref?.child("devedores").child(name.text!).setValue(["Nome":name.text, "Descricao":desc.text, "Valor":value.text ])
-            
-            let alert = UIAlertController(title: "Sucesso", message: "Devedor adicionado com sucesso!", preferredStyle: UIAlertControllerStyle.alert)
+        if let doubleFromText = Double(value.text!) {
+            if(name.text != "") {
+                ref?.child("devedores").child(name.text!).setValue(["Nome":name.text, "Descricao":desc.text, "Valor":value.text ])
+                
+                let alert = UIAlertController(title: "Sucesso", message: "Devedor adicionado com sucesso!", preferredStyle: UIAlertControllerStyle.alert)
+                alert.addAction(UIAlertAction(title: "Confirmar", style: UIAlertActionStyle.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
+                
+                name.text = ""
+                desc.text = ""
+                value.text = ""
+            }
+        } else {
+            let alert = UIAlertController(title: "Falha", message: "Digite o valor corretamente (Ex: 5.50)", preferredStyle: UIAlertControllerStyle.alert)
             alert.addAction(UIAlertAction(title: "Confirmar", style: UIAlertActionStyle.default, handler: nil))
             self.present(alert, animated: true, completion: nil)
-            
-            name.text = ""
-            desc.text = ""
-            value.text = ""
         }
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
